@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
 import {Grid, Cell, form, label, select} from 'react-mdl';
-
 class Contact extends Component
 {
   render()

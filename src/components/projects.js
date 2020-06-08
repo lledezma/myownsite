@@ -1,12 +1,11 @@
 import React, {Component} from 'react';
 import { Tabs, Tab, Grid, Cell, Card, CardTitle, CardActions, Button, CardMenu, IconButton, CardText } from 'react-mdl';
-
 class Projects extends Component
 {
   constructor(props) 
   {
     super(props);
-    this.state = {
+    this.state = {    
       activeTab:0
     }
   } 
@@ -53,15 +52,15 @@ class Projects extends Component
             <CardText>
             Java Project
             </CardText>
-        <CardActions border>
-          <a href="http://github.com/lledezma/Tictactoe" rel="noopener noreferrer" target="_blank">
-            <Button colored>View Project</Button>
-          </a>
-        </CardActions>
-        <CardMenu style={{color: '#fff'}}>
-          <IconButton name="share"/>
-        </CardMenu>
-      </Card>
+          <CardActions border>
+            <a href="http://github.com/lledezma/Tictactoe" rel="noopener noreferrer" target="_blank">
+              <Button colored>View Project</Button>
+            </a>
+          </CardActions>
+          <CardMenu style={{color: '#fff'}}>
+            <IconButton name="share"/>
+          </CardMenu>
+        </Card>
       );
     }else if(this.state.activeTab ===3){ /* Web Project */
       return(
@@ -70,15 +69,15 @@ class Projects extends Component
             <CardText>
               Web Project
             </CardText>
-        <CardActions border>
-          <a href="http://github.com/lledezma/JavaJam" rel="noopener noreferrer" target="_blank">
-            <Button colored>View Project</Button>
-          </a>
-        </CardActions>
-        <CardMenu style={{color: '#fff'}}>
-          <IconButton name="share"/>
-        </CardMenu>
-      </Card>
+          <CardActions border>
+            <a href="http://github.com/lledezma/JavaJam" rel="noopener noreferrer" target="_blank">
+              <Button colored>View Project</Button>
+            </a>
+          </CardActions>
+          <CardMenu style={{color: '#fff'}}>
+            <IconButton name="share"/>
+          </CardMenu>
+        </Card>
       );
     }
   }
