@@ -7,8 +7,7 @@ import Contact from './contact';
 import Projects from './projects';
 import Resume from './resume';
 
-const Main = () =>
-(
+const Main = () => (
   <Switch>
     <Route exact path="/" component={LandingPage} />
     <Route path="/aboutme" component={Aboutme} />

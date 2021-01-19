@@ -1,9 +1,7 @@
 import React, {Component} from 'react';
 import {Grid, Cell, form, label, select} from 'react-mdl';
-class Contact extends Component
-{
-  render()
-  {
+class Contact extends Component {
+  render() {
     return(
       <div style={{width: '100%', margin: 'auto'}}>
         <Grid className="landing-grid">

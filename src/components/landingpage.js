@@ -1,10 +1,8 @@
 import React, {Component} from 'react';
 import {Grid, Cell} from 'react-mdl';
 
-class Landing extends Component
-{
-  render()
-  {
+class Landing extends Component {
+  render() {
     return(
       <div style={{width: '100%', margin: 'auto'}}>
         <Grid className="landing-grid">
@@ -15,7 +13,7 @@ class Landing extends Component
             <div className="banner-text">
               <h1>Software Developer</h1>
               <hr/>
-                <p>Java | JavaScript | HTML/CSS | React | Python | C/C#/C++</p>
+              <p>Java | JavaScript | HTML/CSS | React | Python | C/C#/C++</p>
               <div className="social-links">
                 {/*Linkedin*/}
                 <a href="http://www.linkedin.com/in/luis-ledezma" rel="noopener noreferrer" target="_blank">

@@ -1,9 +1,7 @@
 import React, {Component} from 'react';
 import { Tabs, Tab, Grid, Cell, Card, CardTitle, CardActions, Button, CardMenu, IconButton, CardText } from 'react-mdl';
-class Projects extends Component
-{
-  constructor(props)  
-  {
+class Projects extends Component {
+  constructor(props) {
     super(props);
     this.state = {    
       activeTab:0
